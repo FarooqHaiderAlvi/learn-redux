@@ -1,9 +1,12 @@
+import Card from "./Components/ReduxStore/Card";
+import Navbar from "./Components/ReduxStore/Navbar";
 
 
 function App() {
    return (
       <>
-         learn redux
+         <Navbar />
+         <Card />
       </>
    );
 }
