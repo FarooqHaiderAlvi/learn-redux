@@ -1,12 +1,13 @@
-import Card from "./Components/ReduxStore/Card";
-import Navbar from "./Components/ReduxStore/Navbar";
 
+import AddTodo from "./Components/ReduxToolkit/AddTodo";
+import Todos from "./Components/ReduxToolkit/Todos";
 
 function App() {
    return (
       <>
-         <Navbar />
-         <Card />
+         <AddTodo />
+         <br />
+         <Todos />
       </>
    );
 }
